@@ -1,0 +1,13 @@
+1.througput =jumlah paket yang dikumpulkan/waktu pengiriman=
+	   742/41,295=17,96 bit/s
+  lalu dikali 8 karena jumlah 1kb ialah 8bit
+	   17,96 x 8 = 143,68 k bits/s
+2.paket loss = 0 atau tidak ada paket yang gagal terkirim
+3.delay = time2-time1
+	total delay = 41295018 s
+	rata-rata delay = total delay/(jumlah paket-1)= 
+			  41295018/741 = 55728,76923
+4.jitter = delay2-delay1
+	total jitter = 34728647147 s
+	rata-rata jitter = total jitter/(jumlah paket-1)=
+			   34728647147/741 = 46867270,1
